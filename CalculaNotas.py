@@ -1,5 +1,5 @@
 # Apresentação
-print("Programa para calcular a média de três avaliações.")
+print("Programa para calcular a média ponderada de três avaliações.")
 print("")
 
 # Entrada de dados
@@ -8,7 +8,7 @@ nota2 = float(input("Digite a segunda nota: "))
 nota3 = float(input("Digite a terceira nota: "))
 
 # Processamento
-media = (nota1 + nota2 + nota3) / 3
+media = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10
 
 # Saída de dados
-print(f"A média das avaliações é {media}.")
+print(f"A média ponderada das avaliações é {media}.")
